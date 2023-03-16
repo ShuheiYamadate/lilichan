@@ -19,4 +19,5 @@
       </div>
     </div>
   </div>
+  <script type="text/javascript" src="https://cache1.value-domain.com/xa.j?site=shuboy.s239.xrea.com"></script>
 @endsection

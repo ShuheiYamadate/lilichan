@@ -19,7 +19,6 @@ use App\Http\Controllers\HomeController;
 
 
 Route::group(['middleware' => 'auth'], function() {
-    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
     Route::get('/', [HomeController::class,'index'])->name('home');
 
     Route::get('/folders/{id}/tasks', [TaskController::class,'index'])->name('tasks.index');
